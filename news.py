@@ -45,8 +45,6 @@ def topAuthors():
 
 
 # On which days did more than 1% of requests lead to errors?
-# Reference:
-# https://discussions.udacity.com/t/logs-analysis-project-query-3/249639
 def errorPercent():
     query = ("SELECT date, round(calculated::decimal, 2) "
              "FROM(SELECT date, cast(num_errrors AS FLOAT)"
