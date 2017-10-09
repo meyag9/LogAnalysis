@@ -1,9 +1,14 @@
 Udacity Fullstack Nanodegree Log Analysis
 Author: Meya Gorbea
 
+Report a site's user activity by connecting to a database and using SQL queries to analyze the log data. (Udacity Fullstack Nanodegree)
+
+#### Example output:
+![output_log](https://user-images.githubusercontent.com/11435794/31326547-313c096c-ac7d-11e7-92ac-376578efe193.png)
+
 In order to use this program you must set up the database that is used for the queries and then compile the program.
 
-Database setup:
+#### Database setup:
  For this project I am using Vagrant, a linux-based virtual machine which gives me the PostgreSQL database.
  You can download Vagrant and bring it online using the command "vagrant up" and log in using "vagrant ssh"
  Next, download the data from this link: https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
@@ -13,7 +18,7 @@ Database setup:
  -Running this command will connect to your installed database server and execute the SQL commands in the downloaded file, creating tables and populating them with data.
  Finally, you are ready to run the program.
 
-To run:
+#### To run:
   "python news.py"
 
 'news.py' Description and Design:
