@@ -1,4 +1,5 @@
 Udacity Fullstack Nanodegree Log Analysis
+
 Author: Meya Gorbea
 
 Report a site's user activity by connecting to a database and using SQL queries to analyze the log data. (Udacity Fullstack Nanodegree)
